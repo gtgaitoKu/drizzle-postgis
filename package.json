@@ -53,6 +53,9 @@
     "test:watch": "vitest watch",
     "semantic-release": "semantic-release"
   },
+  "precommit": [
+    "build"
+  ],
   "devDependencies": {
     "@biomejs/biome": "^1.6.2",
     "@types/node": "^20.11.30",
