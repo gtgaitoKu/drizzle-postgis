@@ -36,7 +36,11 @@
     "./package.json": "./package.json"
   },
   "typesVersions": {
-    "*": {}
+    "*": {
+      "*": [
+        "./dist/*"
+      ]
+    }
   },
   "files": [
     "dist/**/*",
